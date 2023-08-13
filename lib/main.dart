@@ -1,0 +1,9 @@
+import 'package:colored_buttons/views/homepage_view.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: HomePage() ,
+  ));
+}
